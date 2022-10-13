@@ -17,7 +17,7 @@ setup(
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/RToramaru/image-processing-package",
-    fork='https://github.com/geosidnei/image-processing-package',
+    fork='https://github.com/geosidnei/img-process',
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
