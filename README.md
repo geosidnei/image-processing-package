@@ -3,6 +3,7 @@
 ### Aula: Descomplicando a criação de pacotes de processamento de imagens em Python
 #### Tecnologia: Python
 -----------------------------------------
+## Jupiter notebook no link:
 ### Descrição
 O pacote "img-process" divide-se em duas pastas:
 
