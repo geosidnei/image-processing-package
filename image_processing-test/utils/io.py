@@ -1,5 +1,6 @@
 #Author: Karina Tiemi Kato
 #Revisor: Sidnei Lopes Ribeiro (13/10/2022)
+# https://runebook.dev/pt/docs/scikit_image/api/skimage.io 
 
 from skimage.io import imread, imsave
 
