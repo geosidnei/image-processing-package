@@ -1,9 +1,11 @@
 #Author: Karina Tiemi Kato
-from skimage.io import inread, insave
+#Revisor: Sidnei Lopes Ribeiro (13/10/2022)
+
+from skimage.io import imread, imsave
 
 def read_image(path, is_gray = False):
-    image = inread(path, as_gray = is_gray)
+    image = imread(path, as_gray = is_gray)
     return image
 
 def save_image(image, path):
-    insave(path, image)
+    imsave(path, image)
