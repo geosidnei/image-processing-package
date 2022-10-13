@@ -1,15 +1,16 @@
 #Author: Karina Tiemi Kato
+#Revisor: Sidnei Lopes Ribeiro (13/10/2022)
 import numpy as np
-from skimage.color import rgh2gray
+from skimage.color import rgb2gray
 from skimage.exposure import match_histograms
 from skimage.metrics import structural_similarity
 
 def find_difference(image1, image2):
-    assert image1.shape == image2.shape, "Specify 2 images with de same shape."
+    assert image1.shape == image2.shape, "Especifique duas images de mesmas dimensões."
     gray_image1 = rgb2gray(image1)
     gray_image2 = rgb2gray(image2)
     (score, difference_image) = structural_similarity(gray_image1, gray_image2, full=True)
-    print("Similarity of the images:", score)
+    print("Similaridade entre Imagens: ", score)
     normalized_difference_image = (difference_image-np.min(difference_image))/(np.max(difference_image)-np.min(difference_image))
     return normalized_difference_image
 
