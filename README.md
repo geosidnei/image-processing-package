@@ -3,7 +3,9 @@
 ### Aula: Descomplicando a criação de pacotes de processamento de imagens em Python
 #### Tecnologia: Python
 -----------------------------------------
-## Jupiter notebook no link:
+## Jupiter notebook da aula assistida por sidnei lopes ribeiro no link: 
+## https://github.com/geosidnei/img-process/blob/main/image_processing_1.ipynb
+
 ### Descrição
 O pacote "img-process" divide-se em duas pastas:
 
@@ -68,3 +70,5 @@ pip install img-process
 from img-process.processing import combination
 combination.find_difference(image1, image2)
 ```
+## Jupiter notebook da aula assistida por sidnei lopes ribeiro no link: 
+## https://github.com/geosidnei/img-process/blob/main/image_processing_1.ipynb
